@@ -9,6 +9,7 @@ vim.keymap.set("n", "<leader>sh", "<C-w>s") -- split window vertically
 vim.keymap.set("n", "<leader>se", "<C-w>=") -- makes windows equal width
 vim.keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
 
+vim.keymap.set("n", "<leader>bp", ":bprev<CR>")
+vim.keymap.set("n", "<leader>bn", ":bnext<CR>")
+
 vim.keymap.set("i", "jk", "<ESC>") -- enters normal mode
-
-
