@@ -1,2 +1,1 @@
-require("pvc")
-
+require("config")
